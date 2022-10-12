@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    object-fit: contain;
+}
+.menu--icon{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 56px;
+    margin-right: 15px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+   
+}
+nav img{
+    width: 24px;
+}
+.youtube--logo{
+    width: 90px;
+}
+.profile--pic{
+    width: 32px;
+    border-radius: 50%;
+}
+.center-nav{
+    /* border: 1px solid black; */
+    width: 40%;
+    
+}
+.text--field{
+ flex: 1;
+ padding: 0px;
+ height: 42px;
+ background-color: transparent;
+ border: 1px solid lightgray;
+}
+.search--icon{
+    background-color: gray;
+    padding: 1px 15px;
+    height: 40px;
+}
+.right-items{
+    margin-right: 20px;
+}
+
+.main--content{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+}
+.playing--video{
+    flex: 0.6;
+    flex-wrap: wrap;
+   
+    margin-left: 40px;
+}
+
+.side--bar{
+    flex: 0.4;
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+  
+}
+.thump-nail{  
+    display: flex;
+    margin-top: 10px;  
+}
+.thump-nail img{
+    width: 250px;
+}
+.video--text{
+    margin-top: 25px;
+}
+.views{
+    margin-top: 10px;
+    color: rgb(88, 83, 83);
+    margin-right: 50px;
+}
+.reaction{
+    display: flex;
+    align-items: center;
+
+    
+}
+.react--icons{
+    width: 25px;
+    margin-right: px;
+    
+}
+.profile2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.about img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+}
+.subscribe h4{
+    background-color: rgb(216, 216, 224);
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.desc-text{
+    margin-top: 15px;
+}
+.comments{
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    padding-top: 25px;
+}
+.comments img{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.viwer {
+    display: flex;
+    align-items: center;
+}
+.viwer img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.comment-txt{
+    font-size: 18px;
+    border: none;
+    width: 400px;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+}
